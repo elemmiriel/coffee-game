@@ -1,0 +1,284 @@
+body
+{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #353535;
+    background-color: #f0f0ea;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 29px;
+    color: #343434;
+}
+
+.hidden
+{
+    display: none;
+}
+
+.header
+{
+    position: relative;
+    margin: 0 40px;
+    width: 100%;
+    height: auto;
+}
+
+h2 
+{
+  font-size: 20px;
+  text-align: center;
+}
+
+.block
+{
+  display: inline-block;
+  height: 620px;
+  position: relative;
+  border: 2px solid #343434;
+  box-sizing: border-box;
+}
+
+.board.block
+{
+  float: left;
+  position: relative;
+  margin: 20px 20px 40px 40px;
+  width: 70%;
+  min-width: 700px;
+  padding: 10px;
+}
+
+.panel 
+{
+  position: relative;
+  width: 650px;
+  top: 5%;
+  left: 5%;
+}
+
+.panel div
+{
+  display: inline-block;
+  width: 300px;
+  
+}
+
+.panel img
+{
+  
+  width: 300px;
+  height: auto;
+  max-height: 225px;
+  border-radius: 5px;
+}
+  
+.sell-coffee:hover
+{
+  transform: scale(1.1) translateX(-15px) translateY(-12px);
+  transition: transform 0.3s;
+}
+.to-promote:hover
+{
+  transform: scale(1.1) translateX(15px) translateY(-12px);
+  transition: transform 0.3s;
+}
+.buy-coffee-pack:hover
+{
+  transform: scale(1.1) translateX(-15px) translateY(12px);
+  transition: transform 0.3s;
+}
+.choose-perk:hover
+{
+  transform: scale(1.1) translateX(15px) translateY(12px);
+  transition: transform 0.3s;
+}
+
+.panel img:active
+{
+  transform: scale(0.98);
+}
+
+div.statistic-panel
+{
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  border: 3px solid #353535;
+  box-sizing: border-box;
+  transform: rotate(10deg);
+  border-radius: 5px;
+  position: absolute;
+  bottom: 40%;
+  left: 42%;
+  z-index: 999;
+  opacity: 0.9;
+}
+div.statistic-panel span
+{
+display: block;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+
+.statistic-panel:hover
+{
+  transform: none;
+  transform: scale(3.7);
+  transition: transform 1s;
+}
+
+.shop.block
+{
+  float: center;
+  margin: 20px 20px 40px 0px;
+  width: 20%;
+  min-width: 150px;
+  padding: 10px;
+}
+
+.shop.upgrade 
+{
+  margin: 5px 5%;
+  width: 90%;
+  min-height: 50px;
+  background-color: orange;
+  color: #353535;
+  border: none;
+  border-radius: 5px;
+}
+
+.shop.upgrade:hover
+{
+  transform: scale(1.03);
+  box-shadow: 0 0 5px rgba(150,0,0,0.8);
+  background-image: url('../img/rub.png');
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.shop.upgrade:active
+{
+  transform: scale(0.97);
+}
+
+.stat.block
+{
+  padding: 10px;
+  clear: right;
+  position: relative;
+  margin: 0px 20px 40px 40px;
+  width: 92%;
+  height: 100px;
+  border: 2px solid #343434;
+  box-sizing: border-box;
+}
+
+.money 
+{
+  padding: 5px;
+  font-size: 14px;
+  color: orange;
+}
+
+
+
+.footer
+{
+  clear: left;
+    font-size: 12px;
+
+    box-sizing: border-box;
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px 0 40px;
+
+    border-top: solid 1px #ccc;
+}
+
+.footer .center-wrapper
+{
+    display: flex;
+}
+
+.footer a
+{
+    color: #d35400;
+}
+
+.footer-logo,
+.footer-social
+{
+    width: 50%;
+
+    flex-basis: 50%;
+}
+
+.footer-logo
+{
+    position: relative;
+
+    padding-top: 55px;
+}
+
+.footer-logo-link:hover
+{
+    opacity: .6;
+}
+
+.footer-logo-image
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer-social
+{
+    text-align: right;
+}
+
+.footer-social-item
+{
+    font-size: 0;
+
+    display: inline-block;
+    overflow: hidden;
+
+    width: 29px;
+    height: 29px;
+    margin-left: 10px;
+
+    list-style: none;
+
+    vertical-align: top;
+    text-indent: -1999em;
+
+    opacity: .6;
+    background: url('../img/social-sprite.png') no-repeat -59px -59px;
+}
+
+.footer-social-item:hover
+{
+    opacity: 1;
+}
+
+.footer-social-item-instagram
+{
+    background-position: -10px -59px;
+}
+
+.footer-social-item-facebook
+{
+    background-position: -59px -10px;
+}
+
+.footer-social-item-vk
+{
+    background-position: -10px -10px;
+}
